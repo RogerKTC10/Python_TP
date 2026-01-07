@@ -1,6 +1,7 @@
+class connaissance_Env:
+    def __init__(self, nom, age):
+        self.nom = nom
+        self.age = age
 
-
-tab= [1,4,0,78,98,10]
-
-print("",len(tab))
-print("",range(len(tab)))
+    def se_presenter(self):
+        print(f"Je m'appelle {self.nom} et j'ai {self.age} ans.")
