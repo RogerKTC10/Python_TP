@@ -1,3 +1,3 @@
-
-i=10
-print(type(i))
+#NOmbre de FReidman
+x = 7+(3^6)
+print("Nombre"+x)
